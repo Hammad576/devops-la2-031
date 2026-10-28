@@ -76,3 +76,20 @@ padding: 20px  ;
 margin-top: 40px ;
 
 }
+
+section {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+ul li::marker {
+    color: #2563eb;
+}
+
+footer p {
+    font-size: 14px;
+}
